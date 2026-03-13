@@ -27,12 +27,11 @@ noto-fonts-emoji
 
 # Gnome
 gnome-settings-daemon
-gtk-engines
 gvfs
 lxappearance
 
 # XFCE
-leafpad
+mousepad
 thunar
 thunar-volman
 xfce4-terminal
