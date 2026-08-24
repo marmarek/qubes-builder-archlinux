@@ -101,7 +101,8 @@ fi
 echo "### qubes-builder-end" >> "$INSTALL_DIR/etc/pacman.conf"
 
 echo "  --> Installing mandatory qubes packages..."
-run_pacman -S --noconfirm --noprogressbar qubes-vm-dependencies
+run_pacman -S --noconfirm --noprogressbar qubes-vm-dependencies \
+                                          qubes-notification-agent
 
 echo "  --> Installing recommended qubes apps"
 run_pacman -S --noconfirm --noprogressbar qubes-vm-recommended
